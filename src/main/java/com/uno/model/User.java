@@ -1,4 +1,4 @@
-package com.guru.test.model;
+package com.uno.model;
 
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
@@ -7,7 +7,7 @@ import org.springframework.data.mongodb.core.mapping.Document;
  * Created by kamal
  */
 @Document
-public class Person {
+public class User {
 
 	@Id
 	private String id;

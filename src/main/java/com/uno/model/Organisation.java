@@ -1,4 +1,4 @@
-package com.guru.test.model;
+package com.uno.model;
 
 import java.util.Date;
 
@@ -18,7 +18,7 @@ public class Organisation {
 
 	private String dbName;
 
-	private Date createDtae;
+	private Date createDate;
 
 	public String getId() {
 		return id;
@@ -36,12 +36,12 @@ public class Organisation {
 		this.orgName = orgName;
 	}
 
-	public Date getCreateDtae() {
-		return createDtae;
+	public Date getCreateDate() {
+		return createDate;
 	}
 
-	public void setCreateDtae(Date createDtae) {
-		this.createDtae = createDtae;
+	public void setCreateDate(Date createDate) {
+		this.createDate = createDate;
 	}
 
 	public String getDbName() {

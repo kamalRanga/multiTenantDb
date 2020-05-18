@@ -1,0 +1,60 @@
+#
+changes for multi db 
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# On branch master
+# Your branch is up to date with 'origin/master'.
+#
+# Changes to be committed:
+#	new file:   logs/app.log
+#	modified:   pom.xml
+#	deleted:    src/main/java/com/guru/test/Application.java
+#	deleted:    src/main/java/com/guru/test/config/MongoDbConfiguration.java
+#	deleted:    src/main/java/com/guru/test/config/MultiTenantMongoDbFactory.java
+#	deleted:    src/main/java/com/guru/test/controller/HomeController.java
+#	deleted:    src/main/java/com/guru/test/repository/OrgRepository.java
+#	deleted:    src/main/java/com/guru/test/repository/PersonRepository.java
+#	deleted:    src/main/java/com/guru/test/service/OrgService.java
+#	deleted:    src/main/java/com/guru/test/service/PersonService.java
+#	new file:   src/main/java/com/uno/Application.java
+#	new file:   src/main/java/com/uno/config/MongoDbConfiguration.java
+#	new file:   src/main/java/com/uno/config/MultiTenantMongoDbFactory.java
+#	new file:   src/main/java/com/uno/config/PrimaryMongoConnection.java
+#	new file:   src/main/java/com/uno/config/SecondaryMongoConnection.java
+#	new file:   src/main/java/com/uno/controller/TenantController.java
+#	new file:   src/main/java/com/uno/exception/CustomExceptionHandler.java
+#	new file:   src/main/java/com/uno/exception/ErrorResponse.java
+#	new file:   src/main/java/com/uno/exception/RecordNotFoundException.java
+#	new file:   src/main/java/com/uno/helper/ServiceMessage.java
+#	new file:   src/main/java/com/uno/helper/ServiceResult.java
+#	new file:   src/main/java/com/uno/helper/TenantContext.java
+#	renamed:    src/main/java/com/guru/test/model/Organisation.java -> src/main/java/com/uno/model/Organisation.java
+#	new file:   src/main/java/com/uno/model/Role.java
+#	new file:   src/main/java/com/uno/model/Tenant.java
+#	new file:   src/main/java/com/uno/model/TenantDb.java
+#	new file:   src/main/java/com/uno/model/TenantLogin.java
+#	renamed:    src/main/java/com/guru/test/model/Person.java -> src/main/java/com/uno/model/User.java
+#	new file:   src/main/java/com/uno/repository/common/CredsRepository.java
+#	new file:   src/main/java/com/uno/repository/common/LoginRepository.java
+#	new file:   src/main/java/com/uno/repository/common/RoleRepository.java
+#	new file:   src/main/java/com/uno/repository/common/TenantRepository.java
+#	new file:   src/main/java/com/uno/repository/template/TemplateRepository.java
+#	new file:   src/main/java/com/uno/repository/tenant/package-info.java
+#	new file:   src/main/java/com/uno/service/CommonService.java
+#	new file:   src/main/java/com/uno/service/EmailService.java
+#	new file:   src/main/java/com/uno/service/LoginService.java
+#	new file:   src/main/java/com/uno/service/TemplateService.java
+#	new file:   src/main/java/com/uno/service/TenantService.java
+#	new file:   src/main/java/com/uno/swagger/SwaggerConfig.java
+#	new file:   src/main/java/com/uno/swagger/package-info.java
+#	new file:   src/main/java/com/uno/util/UNOUtils.java
+#	new file:   src/main/java/com/uno/util/package-info.java
+#	new file:   src/main/java/com/uno/validator/UserValidator.java
+#	new file:   src/main/java/com/uno/validator/package-info.java
+#	modified:   src/main/resources/application.properties
+#	new file:   src/main/resources/log4j2.xml
+#	new file:   src/main/resources/log4j2yml
+#	new file:   src/main/resources/#
+
